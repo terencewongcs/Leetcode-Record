@@ -2,35 +2,38 @@
 ## Homework
 ### Homework 2
 <ol>
-<li><a href="https://leetcode.com/problems/multiply-strings/" >Transpose Matrix</a> <a href="https://github.com/terencewongcs/Leetcode-Record/blob/main/867.transpose-matrix.java" >[Github Link]</a></li>
-<li> [Leetcode 2 Shortest Word Distance](https://github.com/terencewongcs/Leetcode-Record/blob/main/243.%20Shortest%20Word%20Distance.java)</li>
-<li> [Leetcode 3 Move Zeroes](https://github.com/terencewongcs/Leetcode-Record/blob/main/283.move-zeroes.java)</li>
-<li> [Leetcode 4 Rotate Image](https://github.com/terencewongcs/Leetcode-Record/blob/main/48.rotate-image.java)</li>
-<li> [Leetcode 5 Spiral Matrix](https://github.com/terencewongcs/Leetcode-Record/blob/main/54.spiral-matrix.java)</li>
-<li>[Leetcode 6 Isomorphic Strings](https://github.com/terencewongcs/Leetcode-Record/blob/main/205.isomorphic-strings.java)</li>
-<li> [Leetcode 7 Add Strings](https://github.com/terencewongcs/Leetcode-Record/blob/main/415.add-strings.java)</li>
-<li> [Leetcode 8 Valid Palindrome](https://github.com/terencewongcs/Leetcode-Record/blob/main/125.valid-palindrome.java)</li>
-<li> [Leetcode 9 Reverse words in a String](https://github.com/terencewongcs/Leetcode-Record/blob/main/151.reverse-words-in-a-string.java)</li>
-<li>  [Leetcode 10 String Compression](https://github.com/terencewongcs/Leetcode-Record/blob/main/443.string-compression.java)</li>
+<li><a href="https://leetcode.com/problems/transpose-matrix/" >Transpose Matrix</a> <a href="https://github.com/terencewongcs/Leetcode-Record/blob/main/867.transpose-matrix.java" >[Github Link]</a>ans[j][i] = matrix[i][j]</li>
+<li> <a href="https://leetcode.com/problems/shortest-word-distance/" >Shortest Word Distance</a> <a href="https://github.com/terencewongcs/Leetcode-Record/blob/main/243.%20Shortest%20Word%20Distance.java" >[Github Link]</a>find every word, pick the min distance</li>
+<li> <a href="https://leetcode.com/problems/move-zeroes/" >Move Zeroes</a> <a href="https://github.com/terencewongcs/Leetcode-Record/blob/main/283.move-zeroes.java" >[Github Link]</a> two pointers, i to find 0, j to find !0</li>
+<li> <a href="https://leetcode.com/problems/rotate-image/solution/" >Rotate Image</a> <a href="https://github.com/terencewongcs/Leetcode-Record/blob/main/48.rotate-image.java">[Github Link]</a>n-i-1 n-j-1 swap</li>
+<li> <a href="https://leetcode.com/problems/spiral-matrix/" >Spiral Matrix</a> <a href="https://github.com/terencewongcs/Leetcode-Record/blob/main/54.spiral-matrix.java">[Github Link]</a> review</li>
+<li><a href="https://leetcode.com/problems/isomorphic-strings/" >Isomorphic Strings</a> <a href="https://github.com/terencewongcs/Leetcode-Record/blob/main/205.isomorphic-strings.java">[Github Link]</a>build two hashmaps</li>
+<li> <a href="https://leetcode.com/problems/add-strings/submissions/" >Add Strings</a> <a href="https://github.com/terencewongcs/Leetcode-Record/blob/main/415.add-strings.java">[Github Link]</a>竖式加法，按位加，进位</li>
+<li> <a href="https://leetcode.com/problems/valid-palindrome//" >Valid Palindrome</a> <a href="https://github.com/terencewongcs/Leetcode-Record/blob/main/125.valid-palindrome.java">[Github Link]</a>Character.isLetterOrDigit Character.toLowerCase</li>
+<li> <a href="https://leetcode.com/problems/reverse-words-in-a-string/" >Reverse words in a String</a> <a href="https://github.com/terencewongcs/Leetcode-Record/blob/main/151.reverse-words-in-a-string.java">[Github Link]</a> trim() split("\\s+")) Collections.reverse(wordList) String.join(" ", wordList)</li>
+<li> <a href="https://leetcode.com/problems/string-compression/" >String Compression</a> <a href="https://github.com/terencewongcs/Leetcode-Record/blob/main/443.string-compression.java">[Github Link]</a> </li>
  </ol>
+
 ## CodeLab Fall 2021
+
 ### Week 1
+
 <ol>
-<li> <a href="https://leetcode.com/problems/multiply-strings/" >Multiply Strings</a></li>
-<li> <a href="https://leetcode.com/problems/string-compression/"> String Compression</a></li>
-<li><a href="https://leetcode.com/problems/implement-strstr/" title="">Implement strStr()	</a></li>
-<li><a href="https://leetcode.com/problems/merge-k-sorted-lists/" title="">Merge k Sorted Lists	</a></li>
-<li><a href="https://leetcode.com/problems/merge-sorted-array/" title="">Merge Sorted Array	</a></li>
-<li><a href="https://leetcode.com/problems/kth-largest-element-in-an-array/" title="">Kth Largest Element in an Array	</a></li>
-<li><a href="https://leetcode.com/problems/search-in-rotated-sorted-array/" title="">Search in Rotated Sorted Array	</a></li>
-<li><a href="https://leetcode.com/problems/spiral-matrix/" title="">Spiral Matrix	</a></li>
-<li><a href="https://leetcode.com/problems/merge-intervals/" title="">Merge Intervals	</a></li>
-<li><a href="https://leetcode.com/problems/3sum/">3 Sum  </a></li>
-<li><a href="https://leetcode.com/problems/subdomain-visit-count/" title="">Subdomain Visit Count	</a></li>
+<li> <a href="https://leetcode.com/problems/multiply-strings/" >Multiply Strings</a> 竖式乘法，结果有i+j-1位</li>
+<li> <a href="https://leetcode.com/problems/string-compression/"> String Compression</a>注意有多位数的情况，比如a12</li>
+<li><a href="https://leetcode.com/problems/implement-strstr/" title="">Implement strStr()	</a>使用substring()</li>
+<li><a href="https://leetcode.com/problems/merge-k-sorted-lists/" title="">Merge k Sorted Lists	</a>加到一个array里Collections.sort 新建linkNode</li>
+<li><a href="https://leetcode.com/problems/merge-sorted-array/" title="">Merge Sorted Array	</a>直接把2加到1后面，Array.sort</li>
+<li><a href="https://leetcode.com/problems/kth-largest-element-in-an-array/" title="">Kth Largest Element in an Array	</a>Array.sort 输出倒数第k个数</li>
+<li><a href="https://leetcode.com/problems/search-in-rotated-sorted-array/" title="">Search in Rotated Sorted Array	</a>binary search 再看一次</li>
+<li><a href="https://leetcode.com/problems/spiral-matrix/" title="">Spiral Matrix	</a>四个方向转</li>
+<li><a href="https://leetcode.com/problems/merge-intervals/" title="">Merge Intervals	</a>先按interval[0]排序，再合并interval[0] <= tempInterval[1]的intervals</li>
+<li><a href="https://leetcode.com/problems/3sum/">3 Sum  </a>two pointers, 2Sum=-a</li>
+<li><a href="https://leetcode.com/problems/subdomain-visit-count/" title="">Subdomain Visit Count	</a>split("\\s+") HashMap</li>
 <li><a href="https://leetcode.com/problems/reconstruct-original-digits-from-english/" title="">Reconstruct Original Digits from English	 </a></li>
-<li><a href="https://leetcode.com/problems/expressive-words/" title="">Expressive Words	</a></li>
-<li><a href="https://leetcode.com/problems/count-binary-substrings/" title="">Count Binary Substrings	</a></li>
-<li><a href="https://leetcode.com/problems/roman-to-integer/" title="">Roman to Integer	</a></li>
+<li><a href="https://leetcode.com/problems/expressive-words/" title="">Expressive Words	</a>判断重复字母</li>
+<li><a href="https://leetcode.com/problems/count-binary-substrings/" title="">Count Binary Substrings	</a>存入连续串的长度，0*k+1*l，取k和l中较小的</li>
+<li><a href="https://leetcode.com/problems/roman-to-integer/" title="">Roman to Integer	</a>4是1 5</li>
 <li><a href="https://leetcode.com/problems/sort-array-by-increasing-frequency/ " title="">Sort Array by Increasing Frequency	</a></li>
 <li><a href="https://leetcode.com/problems/maximum-product-of-three-numbers/" title="">Maximum Product of Three Numbers </a></li>
 <li><a href="https://leetcode.com/problems/missing-number/" title="">Missing Number	</a></li>
