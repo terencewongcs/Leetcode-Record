@@ -1,6 +1,20 @@
 # leetcode
- # CodeLab Fall 2021
-## Week 1
+## Homework
+### Homework 2
+<ol>
+<li><a href="https://leetcode.com/problems/multiply-strings/" >Transpose Matrix</a> <a href="https://github.com/terencewongcs/Leetcode-Record/blob/main/867.transpose-matrix.java" >[Github Link]</a></li>
+<li> [Leetcode 2 Shortest Word Distance](https://github.com/terencewongcs/Leetcode-Record/blob/main/243.%20Shortest%20Word%20Distance.java)</li>
+<li> [Leetcode 3 Move Zeroes](https://github.com/terencewongcs/Leetcode-Record/blob/main/283.move-zeroes.java)</li>
+<li> [Leetcode 4 Rotate Image](https://github.com/terencewongcs/Leetcode-Record/blob/main/48.rotate-image.java)</li>
+<li> [Leetcode 5 Spiral Matrix](https://github.com/terencewongcs/Leetcode-Record/blob/main/54.spiral-matrix.java)</li>
+<li>[Leetcode 6 Isomorphic Strings](https://github.com/terencewongcs/Leetcode-Record/blob/main/205.isomorphic-strings.java)</li>
+<li> [Leetcode 7 Add Strings](https://github.com/terencewongcs/Leetcode-Record/blob/main/415.add-strings.java)</li>
+<li> [Leetcode 8 Valid Palindrome](https://github.com/terencewongcs/Leetcode-Record/blob/main/125.valid-palindrome.java)</li>
+<li> [Leetcode 9 Reverse words in a String](https://github.com/terencewongcs/Leetcode-Record/blob/main/151.reverse-words-in-a-string.java)</li>
+<li>  [Leetcode 10 String Compression](https://github.com/terencewongcs/Leetcode-Record/blob/main/443.string-compression.java)</li>
+ </ol>
+## CodeLab Fall 2021
+### Week 1
 <ol>
 <li> <a href="https://leetcode.com/problems/multiply-strings/" >Multiply Strings</a></li>
 <li> <a href="https://leetcode.com/problems/string-compression/"> String Compression</a></li>
