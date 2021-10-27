@@ -9,7 +9,7 @@
 <li> <a href="https://leetcode.com/problems/spiral-matrix/" >Spiral Matrix</a> <a href="https://github.com/terencewongcs/Leetcode-Record/blob/main/54.spiral-matrix.java">[Github Link]</a> review</li>
 <li><a href="https://leetcode.com/problems/isomorphic-strings/" >Isomorphic Strings</a> <a href="https://github.com/terencewongcs/Leetcode-Record/blob/main/205.isomorphic-strings.java">[Github Link]</a>build two hashmaps</li>
 <li> <a href="https://leetcode.com/problems/add-strings/submissions/" >Add Strings</a> <a href="https://github.com/terencewongcs/Leetcode-Record/blob/main/415.add-strings.java">[Github Link]</a>竖式加法，按位加，进位</li>
-<li> <a href="https://leetcode.com/problems/valid-palindrome//" >Valid Palindrome</a> <a href="https://github.com/terencewongcs/Leetcode-Record/blob/main/125.valid-palindrome.java">[Github Link]</a>Character.isLetterOrDigit Character.toLowerCase</li>
+<li> <a href="https://leetcode.com/problems/valid-palindrome/" >Valid Palindrome</a> <a href="https://github.com/terencewongcs/Leetcode-Record/blob/main/125.valid-palindrome.java">[Github Link]</a>Character.isLetterOrDigit Character.toLowerCase</li>
 <li> <a href="https://leetcode.com/problems/reverse-words-in-a-string/" >Reverse words in a String</a> <a href="https://github.com/terencewongcs/Leetcode-Record/blob/main/151.reverse-words-in-a-string.java">[Github Link]</a> trim() split("\\s+")) Collections.reverse(wordList) String.join(" ", wordList)</li>
 <li> <a href="https://leetcode.com/problems/string-compression/" >String Compression</a> <a href="https://github.com/terencewongcs/Leetcode-Record/blob/main/443.string-compression.java">[Github Link]</a> </li>
  </ol>
@@ -34,13 +34,13 @@
 <li><a href="https://leetcode.com/problems/expressive-words/" title="">Expressive Words	</a>判断重复字母</li>
 <li><a href="https://leetcode.com/problems/count-binary-substrings/" title="">Count Binary Substrings	</a>存入连续串的长度，0*k+1*l，取k和l中较小的</li>
 <li><a href="https://leetcode.com/problems/roman-to-integer/" title="">Roman to Integer	</a>4是1 5</li>
-<li><a href="https://leetcode.com/problems/sort-array-by-increasing-frequency/ " title="">Sort Array by Increasing Frequency	</a></li>
-<li><a href="https://leetcode.com/problems/maximum-product-of-three-numbers/" title="">Maximum Product of Three Numbers </a></li>
-<li><a href="https://leetcode.com/problems/missing-number/" title="">Missing Number	</a></li>
-<li><a href="https://leetcode.com/problems/contains-duplicate/" title="">Contains Duplicate	</a></li>
-<li><a href="https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/" title="">Capacity To Ship Packages Within D Days	</a></li>
-<li><a href="https://leetcode.com/problems/rotate-array/" title="">Rotate Array	</a></li>
-<li><a href="https://leetcode.com/problems/find-peak-element/" title="">Find Peak Element	</a></li>
+<li><a href="https://leetcode.com/problems/sort-array-by-increasing-frequency/ " title="">Sort Array by Increasing Frequency	</a> PriorityQueue</li>
+<li><a href="https://leetcode.com/problems/maximum-product-of-three-numbers/" title="">Maximum Product of Three Numbers </a>sort max(nums[0] * nums[1] * nums[nums.length - 1], nums[nums.length - 1] * nums[nums.length - 2] * nums[nums.length - 3])</li>
+<li><a href="https://leetcode.com/problems/missing-number/" title="">Missing Number	</a>等差数列</li>
+<li><a href="https://leetcode.com/problems/contains-duplicate/" title="">Contains Duplicate	</a>sort before search or hashmap</li>
+<li><a href="https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/" title="">Capacity To Ship Packages Within D Days	</a>binary search between max and sum</li>
+<li><a href="https://leetcode.com/problems/rotate-array/" title="">Rotate Array	</a>new an array a[(i + k) % nums.length] = nums[i];</li>
+<li><a href="https://leetcode.com/problems/find-peak-element/" title="">Find Peak Element	</a>if (nums[i] > nums[i + 1]) return i;</li>
 <li><a href="https://leetcode.com/problems/move-zeroes/" title="">Move Zeroes	</a></li>
 <li><a href="https://leetcode.com/problems/sort-colors/" title="">Sort Colors	</a></li>
 <li><a href="https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/" title="">Find All Numbers Disappeared in an Array 	</a></li>
